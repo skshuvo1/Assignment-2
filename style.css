@@ -110,10 +110,12 @@ content part two
 ----------------------------------------- */
 
 .content_container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display:flex;
     gap: 82px;
     padding: 0px 10%;
+}
+.content_container > div {
+    flex:1;
 }
 
 .content_container p{
@@ -147,7 +149,7 @@ content part two
 }
 .bottom_btn{
     text-align: center;
-    margin-top: 75px;
+    margin-top: -94px;
 }
 
 .experience_btn h3{
@@ -290,6 +292,7 @@ media query
         grid-template-columns: repeat(1,1fr);
     } 
     .content_container, .factor_blogs{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 5px;
         width: 100%;
@@ -317,6 +320,7 @@ media query
 @media screen and (min-width:577px) and (max-width:991px){
 
     .about_info_one, .content_container{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
     
