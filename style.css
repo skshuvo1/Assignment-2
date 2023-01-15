@@ -113,7 +113,7 @@ content part two
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 82px;
-    padding: 0 10%;
+    padding: 0px 10%;
 }
 
 .content_container p{
@@ -149,7 +149,7 @@ content part two
 .bottom_btn{
     width: 100%;
     text-align: center;
-    margin-top: -5%;
+    margin: -35% 0 0 56%;
 }
 
 .experience_btn h3{
