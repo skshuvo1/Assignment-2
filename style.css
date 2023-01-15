@@ -144,12 +144,10 @@ content part two
     width: 210px;
     color: white;
     background:#F96066;
-    /* margin: auto; */
 }
 .bottom_btn{
-    width: 100%;
     text-align: center;
-    margin: -35% 0 0 56%;
+    margin-top: -94px;
 }
 
 .experience_btn h3{
